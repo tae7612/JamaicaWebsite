@@ -32,15 +32,6 @@
 			</li>
 			<li> <a href = "hidden.php">Hidden Gems </a> </li>
 			<li> <a href = " event.php">Events </a> </li>
-			<li class = "dropbox"> 
-				<button class = "dropbtn"> Project</button>
-				<div class = "dropbox-content">
-					<a href = "comment.php"> Comments </a>
-					<a href ="references.php"> References</a>
-					<a href ="grading.php"> Grading</a>
-					
-				</div>
-			</li>
 		</ul>
 		
 	</nav>
