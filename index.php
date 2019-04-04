@@ -15,12 +15,12 @@
 
 
 	<img src ="assets/media/images/home/03JAMAICAJP1-superJumbo.jpg" class="bg">
-	<div class = "fade">
-		<p class = "home title_drop" >
+	<div class = "fade centerText">
+		<p class = "home" >
 			Welcome to Jamaica
 		</p>
 
-		<p id = "sub" class = "sub_drop">
+		<p id = "sub" class = "">
 			Land of Wood and Water
 
 		</p>
