@@ -422,7 +422,7 @@ header h1{
 
 header.nh
 {
-	height: 40vw;
+
 	margin-top: 56px;
 	margin-left: -8px;
 	margin-right: -9px;
@@ -459,8 +459,7 @@ h2.nh
 
 header.ja
 {
-	height: 450px;
-	margin-top: -21px;
+	margin-top: 56px;
 	margin-left: -8px;
 	margin-right: -9px;
 	position: static;
@@ -482,8 +481,8 @@ header.ja
 
 #img04 img
 {
-	width: 330px;
-	height: 200px;
+	max-width: 330px;
+	max-height: 200px;
 
 }
 
@@ -499,8 +498,8 @@ header.ja
 
 #img05 img
 {
-	width: 330px;
-	height: 500px;
+	max-width: 330px;
+	max-height: 500px;
 
 }
 
@@ -516,8 +515,8 @@ header.ja
 
 #img06 img
 {
-	width: 220px;
-	height: 150px;
+	max-width: 220px;
+	max-height: 150px;
 
 }
 
@@ -533,7 +532,7 @@ header.ja
   	bottom: 0;
   	left: 0;
 	margin: auto;
-	width: 1000px;
+	max-width: 1000px;
     height: 500px;
 	border: 1px solid rgb(220,220,220);
 	border-radius: 12px;

@@ -9,7 +9,9 @@
 ?>
 
 	<header class = "ja header_fade ">
-		<h1> Why JA?! </h1>
+        <div class="head_container">
+		    <h1> Why JA?! </h1>
+        </div>
 	</header>
 	
 	<div class = "head">
