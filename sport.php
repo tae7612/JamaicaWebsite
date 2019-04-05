@@ -11,7 +11,9 @@
 
 
 	<header class = "sports header_fade ">
-		<h1> Sports</h1>
+        <div class="head_container">
+		    <h1> Sports</h1>
+        </div>
 	</header>
 
 	<div class = "head">

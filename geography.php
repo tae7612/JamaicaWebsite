@@ -11,7 +11,9 @@
 
 	
 	<header class = "geo header_fade ">
-		<h1> Geography </h1>
+        <div class="head_container">
+		    <h1> Geography </h1>
+        </div>
 	</header>
 	
 	

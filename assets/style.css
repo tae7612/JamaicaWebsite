@@ -359,13 +359,27 @@ header{
 	height: 40vw;
 }
 
+header h1{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15vw;
+	padding: 0;
+}
+
+.head_container{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+
+
 
 /*--------------- Geography ---------------*/
 
 header.geo
 {
-	height: 450px;
-	margin-top: -21px;
+	margin-top: 56px;
 	margin-left: -8px;
 	margin-right: -9px;
 	position: static;
@@ -385,8 +399,9 @@ header.geo
 
 #img01 img
 {
-	width: 320px;
-	height: 170px;
+	max-width: 320px;
+	max-height: 170px;
+	padding: 20px;
 
 }
 
@@ -398,22 +413,9 @@ header.geo
 
 #img02 img
 {
-	width: 1140px;
-	height: 570px;
+	max-width: 100%;
+	max-height: 570px;
 
-}
-
-header h1{
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 15vw;
-	padding: 0;
-}
-
-.head_container{
-	display: table;
-	height: 100%;
-	width: 100%;
 }
 
 
@@ -805,8 +807,7 @@ header.food
 
 header.sports
 {
-	height: 450px;
-	margin-top: -21px;
+	margin-top: 56px;
 	margin-left: -8px;
 	margin-right: -9px;
 	position: static;
@@ -828,7 +829,7 @@ header.sports
 
 #img09 img
 {
-	width: 230px;
+	max-width: 230px;
 	height: 150px;
 
 }
@@ -846,7 +847,7 @@ header.sports
 
 #img10 img
 {
-	width: 370px;
+	max-width: 370px;
 	height: 270px;
 
 }
