@@ -10,7 +10,9 @@
 
 
 	<header class = "lan header_fade ">
-		<h1> Language </h1>
+        <div class="head_container">
+		    <h1> Language </h1>
+        </div>
 	</header>
 	
 	<div class = "head">
@@ -32,8 +34,13 @@
 		<hr>
 		
 		<h2> Learn Patois </h2>
+
+            <div class="videoContainer">
+
+                <iframe id = "vid" width="560" height="315" align="middle" src="https://www.youtube.com/embed/ic5O-8GiOg8" allowfullscreen></iframe>
+            </div>
 			
-			<iframe id = "vid" width="560" height="315" src="https://www.youtube.com/embed/ic5O-8GiOg8" allowfullscreen></iframe>
+
 		
 	</div>
 	
