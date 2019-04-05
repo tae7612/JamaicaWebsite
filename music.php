@@ -10,7 +10,9 @@
 
 	
 	<header class = "muse header_fade ">
-		<h1> Music </h1>
+        <div class="head_container">
+		    <h1> Music </h1>
+        </div>
 	</header>
 	
 	<div class = "head">
@@ -107,7 +109,7 @@
 		<div class = "mu">
 			<p> <q>Roll it Gal</q> by Alison Hinds </p>
 			<audio controls>
-  				<source src="assets/media/music/Alison_Hinds_Roll_It_Gal_lyrics.mp3" type="audio/mpeg">
+  				<source src="assets/media/music/Alison_Hinds_Roll_It_Gal%20_yrics.mp3" type="audio/mpeg">
 				Your browser does not support the audio element.
 			</audio> 
 		</div>
