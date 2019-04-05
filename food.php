@@ -9,7 +9,10 @@
 ?>
 
 	<header class = "food header_fade ">
-		<h1> Food </h1>
+        <div class="head_container">
+
+		    <h1> Food </h1>
+        </div>
 	</header>
 	
 	<div class = "head">

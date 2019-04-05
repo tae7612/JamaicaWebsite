@@ -17,30 +17,6 @@
 </head> 
 <body>
 
-<!--	<nav>-->
-<!--		<ul>-->
-<!--			<li> <a href = "index.php"> Home </a> </li>-->
-<!--			<li class = "dropbox">-->
-<!--				<button class = "dropbtn"> About JA </button>-->
-<!--				<div class = "dropbox-content">-->
-<!--					<a href ="National_H.php"> History</a>-->
-<!--					<a href ="geography.php"> Geography</a>-->
-<!--				</div>-->
-<!--			</li>-->
-<!--			<li> <a href = "WhyJA.php">Why JA? </a> </li>-->
-<!--			<li class = "dropbox">-->
-<!--				<button class = "dropbtn"> Culture</button>-->
-<!--				<div class = "dropbox-content">-->
-<!--					<a href ="food.php"> Food</a>-->
-<!--					<a href ="music.php"> Music</a>-->
-<!--					<a href ="sport.php"> Sports</a>-->
-<!--					<a href ="language.php"> Language</a>-->
-<!--				</div>-->
-<!--			</li>-->
-<!--			<li> <a href = "hidden.php">Hidden Gems </a> </li>-->
-<!--			<li> <a href = " event.php">Events </a> </li>-->
-<!--		</ul>-->
-<!--    </nav>-->
 
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
