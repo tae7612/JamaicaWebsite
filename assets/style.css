@@ -212,31 +212,24 @@ img.bg{
 
 p.home
 {
-	/*display: inline-block;*/
-	/*position: absolute;*/
-	/*margin: 0;*/
-	/*width: 100%;*/
+	margin: 0;
+	width: 100%;
 	text-shadow: 6px 3px 7px #000000;
-	/*transform: translateY(-50%);*/
 	text-align: center;
 	font: 100px Lato, sans-serif;
 	color: rgb(220, 111, 148);
-	/*top: 35%;*/
 
 }
 
 p#sub
 {
-	/*display: inline-block;*/
-	/*position: absolute;*/
-	/*margin: 0;*/
-	/*width: 100%;*/
-	/*transform: translateY(-50%);*/
+
+	width: 100%;
 	text-align: center;
 	font-size: 40px;
 	color: rgb(230, 152, 178);
 	text-shadow: 6px 3px 7px #000000;
-	/*top: 46%;*/
+	margin-top: 20px;
 }
 
 
@@ -245,25 +238,24 @@ p#sub
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	width: 100%;
 }
 
 div.button
 {
-	/*display: inline-block;*/
-
 	box-shadow: 6px 3px 7px #000000;
 	background-color: rgba(44,172,190,0.9);
+	text-align: center;
 
-	/*position: absolute;*/
-	/*margin-left: 45%;*/
-
+	margin: auto;
+	width: 100px;
 
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	top: 60%;
 
+	/*Transitions*/
 	-webkit-transition-duration: 1s;
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
@@ -271,13 +263,16 @@ div.button
 
 }
 
+
 div.button a
 {
 	text-decoration: none;
 	color: rgb(245, 245, 245);
 	font-size: 20px;
 	font-weight: bold;
+	text-align: center;
 
+	/*Transitions*/
 	-webkit-transition-duration: 1s;
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
@@ -1152,7 +1147,6 @@ footer
 		padding-right: 30px;
 		padding-top: 4.8px;
 		padding-bottom: 4.8px;
-		border-radius: 20px;
 
 		-webkit-transition-duration: 1s;
     	-moz-transition-duration: 1s;
