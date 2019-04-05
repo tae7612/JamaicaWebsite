@@ -10,7 +10,9 @@
 
 
 	<header class = "gem header_fade ">
-		<h1> Hidden Gems </h1>
+        <div class="head_container">
+		    <h1> Hidden Gems </h1>
+        </div>
 	</header>
 	
 	<div class = "head">
