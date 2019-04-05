@@ -904,8 +904,8 @@ header.gem
 
 header.event
 {
-	height: 450px;
-	margin-top: -21px;
+
+	margin-top: 56px;
 	margin-left: -8px;
 	margin-right: -9px;
 	position: static;
@@ -927,7 +927,7 @@ header.event
 
 #img13 img
 {
-	width: 260px;
+	max-width: 260px;
 	height: 170px;
 
 }
@@ -945,7 +945,7 @@ header.event
 
 #img14 img
 {
-	width: 330px;
+	max-width: 330px;
 	height: 200px;
 
 }
