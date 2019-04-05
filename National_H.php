@@ -9,8 +9,11 @@
 ?>
 
 
-	<header class = "nh header_fade ">
-		<h1> History </h1>
+	<header class = "nh header_fade "</header>
+        <div class="head_container">
+            <h1> History </h1>
+        </div>
+
 	</header>
 	
 	<div class = "head">

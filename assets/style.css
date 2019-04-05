@@ -355,6 +355,9 @@ div.button:hover a
 }
 
 
+header{
+	height: 40vw;
+}
 
 
 /*--------------- Geography ---------------*/
@@ -400,14 +403,27 @@ header.geo
 
 }
 
+header h1{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15vw;
+	padding: 0;
+}
+
+.head_container{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
 
 
 /*--------------- History ---------------*/
 
 header.nh
 {
-	height: 450px;
-	margin-top: -21px;
+	height: 40vw;
+	margin-top: 56px;
 	margin-left: -8px;
 	margin-right: -9px;
 	position: static;
@@ -673,7 +689,6 @@ header.ja
 
 header.lan
 {
-	height: 450px;
 	margin-top: -21px;
 	margin-left: -8px;
 	margin-right: -9px;
