@@ -83,7 +83,6 @@ nav
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 60px;
 	text-decoration: none;
 	background-color: rgb(64, 64, 64);
 	clear:both;
@@ -116,56 +115,28 @@ nav ul li a
 	text-decoration: none;
 }
 
-/* Dropbox */
 
-nav li.dropbox
-{
-	display: inline-block;
-	position: static;
-}
-
-.dropbtn
-{
-    border: none;
-    outline: none;
-    font: inherit;
-	color: inherit;
-    background-color: inherit;
-
-}
-
-.dropbox-content
-{
-	display: none;
-	min-width: 160px;
-	position: absolute;
-	background-color: rgba(64, 64, 64,.8);
-	padding-top: 8px;
-	padding-bottom: 12px;
-	margin-top: -4px ;
-}
-
-.dropbox-content a
-{
-	float: none;
-	font: inherit;
-	color: inherit;
-    display: block;
-    text-align: left;
-	text-decoration: inherit;
-	padding-top: 3px;
-	padding-left: 9px;
-
-}
-
-.dropbox:hover .dropbox-content
-{
-	display: block;
-}
-
-nav ul li a:hover, .dropbox.dropbox-content a:hover, .dropbtn:hover
+nav ul li a:hover, .nav-item:hover, .dropdown-item:hover
 {
 	 color:rgb(133, 224, 221);
+	background-color: rgb(64, 64, 64);
+}
+
+.nav-item{
+	padding-bottom: 8px;
+}
+
+.nav-item.dropdown{
+	margin-top: -15px;
+}
+
+.dropdown-menu{
+	background-color: rgb(133, 224, 221);
+}
+
+.dropdown-item{
+	background-color: rgb(64, 64, 64);
+	color: rgb(245, 245, 245);
 }
 
 .show-menu {
@@ -225,6 +196,7 @@ p#sub
 {
 
 	width: 100%;
+
 	text-align: center;
 	font-size: 40px;
 	color: rgb(230, 152, 178);
